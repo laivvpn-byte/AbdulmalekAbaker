@@ -1,0 +1,181 @@
+/* GENERAL PAGE STYLE */
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  background: linear-gradient(to bottom, #111, #1c1c1c, #282828);
+  color: white;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 60px 10%;
+  background: rgba(0,0,0,0.6);
+  margin: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px cyan;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: cyan;
+  font-size: 32px;
+}
+
+
+/* HEADER */
+header {
+  background: black;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 15px cyan;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: cyan;
+}
+
+nav a {
+  margin-left: 20px;
+  font-size: 16px;
+  color: cyan;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+/* HOME SECTION */
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: side;
+}
+
+.big-name {
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: cyan;
+}
+
+.tagline {
+  margin-top: 30px;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.intro {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.profile-photo-big {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 5px solid cyan;
+  object-fit: cover;
+}
+
+
+/* ABOUT IMAGE */
+.profile-photo-small {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid cyan;
+}
+
+
+/* GRID SYSTEM */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+
+/* SKILLS */
+.skills-box span {
+  padding: 12px 18px;
+  background: rgba(255,255,255,0.1);
+  margin: 10px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 18px;
+  box-shadow: 0 0 10px cyan;
+}
+
+
+/* PROJECT CARDS */
+.card {
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 0 12px cyan;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px cyan;
+}
+
+
+/* CONTACT FORM */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid cyan;
+  background: black;
+  color: white;
+  margin-bottom: 15px;
+}
+
+button {
+  background: cyan;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+}
+
+
+/* SOCIAL ICONS */
+.social-icons a {
+  margin-right: 12px;
+  color: cyan;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
+}
